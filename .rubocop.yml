@@ -1,0 +1,17 @@
+require:
+  - rubocop-rails
+
+Rails:
+  Enabled: true
+
+AllCops:
+  TargetRubyVersion: 3.0
+  DisplayCopNames: true
+  NewCops: enable
+  Exclude:
+    - bin/**/*
+    - config/initializers/secure_headers.rb
+    - db/**/*
+    - node_modules/**/*
+    - vendor/**/*
+    - tmp/**/*
